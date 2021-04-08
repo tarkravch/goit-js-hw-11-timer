@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: "New Tegomin", serif;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.field {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.field:last-child {
+    margin-right: 0;
+}
+
+.value {
+    font-family: "New Tegomin";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 165%;
+    color: tomato;
+}
+
+.label {
+    font-family: "New Tegomin";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 165%;
+    color: #616e7b;
+}
