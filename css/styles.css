@@ -4,6 +4,19 @@ body {
     font-family: "New Tegomin", serif;
 }
 
+.message-title {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "New Tegomin";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 165%;
+    color: teal;
+}
+
 .timer {
     display: flex;
     justify-content: center;
